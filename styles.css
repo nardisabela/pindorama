@@ -1,0 +1,110 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E3F2FD;
+}
+
+header {
+    background-color: #4CAF50;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.banner {
+    background-image: url('banner-image.jpg');
+    background-size: cover;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.banner-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.banner h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.banner p {
+    font-size: 1.5em;
+    margin: 10px 0 20px;
+}
+
+.btn {
+    background-color: #FFEB3B;
+    color: #4CAF50;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.destaque {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+
+.destaque .content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.destaque h2 {
+    font-size: 2.5em;
+    color: #4CAF50;
+}
+
+.destaque p {
+    font-size: 1.2em;
+    color: #333333;
+}
+
+.destaque img {
+    margin: 20px 0;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    margin: 0 10px;
+}
