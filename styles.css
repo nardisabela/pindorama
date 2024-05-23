@@ -14,7 +14,8 @@ header {
 }
 
 .logo {
-    margin-left: 20px;
+    width: 3%;
+    margin-left: 10px;
 }
 
 nav ul {
@@ -37,7 +38,7 @@ nav ul li a {
 }
 
 .banner {
-    background-image: url('banner-image.jpg');
+    background-image: url('img/banner.png');
     background-size: cover;
     color: #FFFFFF;
     text-align: center;
