@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personagens - Aventuras em Pindorama</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+</head>
+<body>
+    <header>
+        <img src="img/icon.png" alt="Logo Aventuras em Pindorama" class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="personagens.html">Personagens</a></li>
+                <li><a href="autor.html">Autor</a></li>
+                <li><a href="downloads.html">Downloads</a></li>
+                <li><a href="recursos.html">Recursos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="conteudo">
+            <div class="content">
+                <h2 style="text-align:center">Personagens</h2>
+                <p style="text-align:center">Clique nas laterais da página para navegar entre personagens.</p>
+                <div class="carousel">
+                    <div>
+                        <img src="img/menina.png" alt="A menina" style="width:25%">
+                        <p style="text-align:center"> A menina é a personagem principal de Aventuras em Pindorama.</p> 
+                        <p style="text-align:center"> Ela é uma menina de sete anos que gosta muito de ir à praia, e adora desafios.</p>
+                    </div>
+                    <div>
+                        <img src="img/canario.png" alt="Canario" style="width:25%">
+                        <p style="text-align:center"> Em Aventuras em Pindorama, o Canário da Terra é representado por Canário,
+                        um dos guardas que cuida da porta de entrada para Pindorama.</p>
+                    </div>
+                    <div>
+                        <img src="img/arara.png" alt="Arara" style="width:25%">
+                        <p style="text-align:center"> Em Aventuras em Pindorama, a Arara-azul é representada por Arara, um dos guardas que cuida da porta de entrada para Pindorama.</p> 
+                    </div>
+                    <div>
+                        <img src="img/curupira.png" alt="Curupira" style="width:25%">
+                        <p style="text-align:center"> Em Aventuras em Pindorama, o Curupira é amigo do Saci e ajuda a menina a encontrara sereia Iara!</p> 
+                    </div>
+                    <div>
+                        <img src="img/saci-p.png" alt="Saci" style="width:25%">
+                        <p style="text-align:center"> Em Aventuras em Pindorama, Saci é amigo do Curupira, e ajuda a menina a encontrar a sereia Iara. Ele sabia onde a sereia estava, mas só contaria à menina se ela pudesse responder a um desafio.</p> 
+                    </div>
+                    <div>
+                        <img src="img/iara.png" alt="Iara" style="width:25%">
+                        <p style="text-align:center"> Em Aventuras em Pindorama, Iara ajuda a menina a voltar para casa.</p> 
+                    </div>
+                    <div>
+                        <img src="img/sapo.png" alt="Sapo" style="width:25%">
+                        <p style="text-align:center"> Em Aventuras em Pindorama, o Sapo é ajudado por Iara.</p> 
+                    </div>
+                    <div>
+                        <img src="img/borboletinha.png" alt="Borboletinha" style="width:25%">
+                        <p style="text-align:center"> Em Aventuras em Pindorama, a menina salva Borboletinha da malvada Cuca.</p> 
+                    </div>
+                    <div>
+                        <img src="img/cuca.png" alt="Cuca" style="width:25%">
+                        <p style="text-align:center"> Em Aventuras em Pindorama, a malvada Cuca sequestra Borboletinha.</p> 
+                    </div>
+                    <div>
+                        <img src="img/mae.png" alt="Mãe" style="width:25%">
+                        <p style="text-align:center"> É a mãe da menina. Ela adora a sua filha, e também gosta muito de ir à praia.</p> 
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Aventuras em Pindorama. Todos os direitos reservados.</p>
+        <div class="social-icons">
+            <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+            <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+            <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.carousel').slick({
+                dots: true,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 1,
+                adaptiveHeight: true,
+                responsive: [
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+                ]
+            });
+        });
+    </script>
+</body>
+</html>

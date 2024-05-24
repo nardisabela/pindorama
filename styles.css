@@ -18,6 +18,11 @@ header {
     margin-left: 10px;
 }
 
+.content {
+    margin-left: 20px;
+    padding-right: 20px;
+}
+
 nav ul {
     list-style: none;
     margin: 0;
@@ -46,17 +51,17 @@ nav ul li a {
 }
 
 .banner-content {
-    max-width: 600px;
+    max-width: 800px;
     margin: 0 auto;
 }
 
 .banner h1 {
-    font-size: 3em;
+    font-size: 3em;;
     margin: 0;
 }
 
 .banner p {
-    font-size: 1.5em;
+    font-size: 1em;
     margin: 10px 0 20px;
 }
 
@@ -108,4 +113,44 @@ footer {
 .social-icons img {
     width: 30px;
     margin: 0 10px;
+}
+
+.carousel img {
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.carousel p {
+    font-size: 1em;
+    color: #333;
+    margin-top: 10px;
+}
+
+/* Media Queries para Responsividade */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        justify-content: center;
+    }
+
+    .conteudo h2 {
+        font-size: 2em;
+    }
+
+    .conteudo p {
+        font-size: 1em;
+    }
+
+    footer {
+        font-size: 0.9em;
+    }
+
+    .social-icons img {
+        width: 25px;
+    }
 }
